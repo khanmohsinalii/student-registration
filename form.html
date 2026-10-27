@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a href="index.html">Home</a> | <a href="form.html">Register</a>
+<h1>Student Registration</h1>
+<form action="thanks.html" method="get">
+  Full Name: <input type="text" name="fullname" placeholder="Your name" required><br><br>
+  Registration No: <input type="text" name="regno" required><br><br>
+  Email: <input type="email" name="email" required><br><br>
+  Phone: <input type="tel" name="phone" placeholder="03XXXXXXXXX"><br><br>
+  Age: <input type="number" name="age" min="16" max="40"><br><br>
+  Date of Birth: <input type="date" name="dob"><br><br>
+
+  Gender:
+  <input type="radio" name="gender" value="Male"> Male
+  <input type="radio" name="gender" value="Female"> Female<br><br>
+
+  Department:
+  <select name="dept">
+    <option>AI</option>
+    <option>CS</option>
+    <option>SE</option>
+    <option>DS</option>
+    <option>EE</option>
+  </select><br><br>
+
+  Interests:
+  <input type="checkbox" name="interest" value="Web"> Web
+  <input type="checkbox" name="interest" value="AI"> AI
+  <input type="checkbox" name="interest" value="Games"> Games<br><br>
+
+  Address:<br>
+  <textarea name="address" rows="4" cols="30"></textarea><br><br>
+
+  <input type="submit" value="Register">
+  <input type="reset" value="Clear">
+</form>
+</body>
+</html>
